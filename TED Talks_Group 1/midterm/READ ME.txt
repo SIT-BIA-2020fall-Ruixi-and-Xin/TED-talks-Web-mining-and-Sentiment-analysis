@@ -1,0 +1,12 @@
+TEDtalks_data_collection.py runs for collecting 4329 rows of data
+	output data: ted_talks_data.csv
+	for testing purpose, users can reduce range() in line 60 to run faster
+
+TEDtalks_data_preprocessing.py runs for data preprocessing.
+	input data: ted_talks_data.csv
+	output data: ted_talks_data_clean.csv
+		     ted_talks_data_1000.csv
+
+TEDtalks_EDA_analysis.ipynb runs in juypters
+	For submitting purpose, we changed file name 
+	from "ted_talks_data_1000.csv" to "ted_talks_data_clean.csv"	
